@@ -46,6 +46,4 @@ for page_num in range(1, page_num_MAX):
 
 
 dataFrame = pandas.DataFrame(scraped_info_list)
-print("Creating a CSV file...")
-dataFrame.to_csv("oyo.csv")
 connecter.get_hotel_info(args.dbname)
